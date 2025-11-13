@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@lingo-app/node": "^2.2.1"
+  }
+}
