@@ -1,0 +1,29 @@
+{
+  "project": "global-incident-dashboard",
+  "source": "./src",
+  "locales": "./src/i18n/locales",
+  "default_language": "en",
+  "languages": ["en", "es", "fr", "hi", "ja"],
+  "hostname": "api.lingo.ai",
+  "port": 443,
+  "token": "",
+  "resources": [
+    {
+      "pathname": "/api/v1/projects/<project-id>/languages",
+      "token": "",
+      "dataPath": "data"
+    }
+  ],
+  "fileConfig": {
+    "startTag": "/* LINGO START */",
+    "endTag": "/* LINGO END */",
+    "template": "\"{{key}}\": \"{{value}}\"," 
+  },
+  "languageFiles": [
+    { "path": "src/i18n/locales/en.json", "code": "en" },
+    { "path": "src/i18n/locales/es.json", "code": "es" },
+    { "path": "src/i18n/locales/fr.json", "code": "fr" },
+    { "path": "src/i18n/locales/hi.json", "code": "hi" },
+    { "path": "src/i18n/locales/ja.json", "code": "ja" }
+  ]
+}
