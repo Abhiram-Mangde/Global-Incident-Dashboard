@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { t } from "lingo";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        {/* Lingo translatable string */}
+        <h1>{t("welcome")}</h1>
       </header>
     </div>
   );
